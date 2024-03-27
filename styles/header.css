@@ -14,3 +14,35 @@
     /* link font color (light blue) */
     --link-font-color: #48cae4;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+#container-main-menu{
+    width: 500px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#container-side-menu{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
