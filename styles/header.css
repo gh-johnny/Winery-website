@@ -10,7 +10,7 @@
 
     /* weak font color */
     --ghost-font: #838b95;
-    
+
     /* link font color (light blue) */
     --link-font-color: #48cae4;
 }
@@ -22,24 +22,29 @@
     padding: 10px 150px;
 }
 
-#container-main-menu{
+#container-main-menu {
     width: 500px;
 }
 
-.main-menu{
+.main-menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
 }
 
-#container-side-menu{
+.main-menu h4:hover {
+    transform: scale(1.2);
+}
+
+#container-side-menu {
     display: flex;
     width: 150px;
     align-items: center;
     justify-content: center;
 }
 
-.side-menu{
+.side-menu {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
