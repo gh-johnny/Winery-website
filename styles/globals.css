@@ -38,18 +38,6 @@ body {
     color: var(--dark-blue);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    /* delete after */
-    min-height: 200vh;
-}
-
-body,
-input,
-textarea,
-button {
-    font: 400 1rem "DM Sans", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 body,
