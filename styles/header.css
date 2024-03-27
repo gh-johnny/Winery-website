@@ -86,6 +86,6 @@
     column-gap: .4rem;
 }
 
-.side-menu img:hover {
+.side-menu img:hover{
     transform: scale(1.2);
 }
