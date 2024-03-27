@@ -9,6 +9,7 @@ Aqui estão algumas das referências que recomendo qualquer um dar uma olhada
 css:
 Aqui estão algumas das referências que recomendo qualquer um dar uma olhada
 <ul>
+css:
     <li>
         <span>Desgin para seguir no</span> <a href="https://www.figma.com/file/uxtjf8rjZu3f5OfADyLpGz/Winery-cp-1?type=design&node-id=0-1&mode=design&t=099kRp0lLuvsPuh6-0">figma</a>
     </li>
