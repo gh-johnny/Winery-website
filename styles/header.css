@@ -30,6 +30,11 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
+}
+
+.main-menu h4:hover{
+    transform:  scale(1.2);
 }
 
 #container-side-menu{
@@ -45,4 +50,9 @@ header {
     justify-content: space-evenly;
     align-items: center;
     justify-items: center;
+    cursor: pointer;
+}
+
+.side-menu img:hover{
+    transform: scale(1.2);
 }
