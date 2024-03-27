@@ -51,3 +51,7 @@
     align-items: center;
     justify-items: center;
 }
+
+.side-menu img:hover{
+    transform: scale(1.2);
+}

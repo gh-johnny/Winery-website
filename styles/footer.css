@@ -15,10 +15,6 @@
     --link-font-color: #48cae4;
 }
 
-main {
-    height: 80vh;
-}
-
 footer {
     width: 100%;
     color: var(--bg-color);
@@ -66,4 +62,3 @@ footer ul li {
     padding: 1.5rem;
     font-weight: 200;
 }  
-
