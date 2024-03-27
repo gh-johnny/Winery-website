@@ -7,6 +7,11 @@ Aqui estão algumas das referências que recomendo qualquer um dar uma olhada
 
 <ul>
 css:
+Aqui estão algumas das referências que recomendo qualquer um dar uma olhada
+<ul>
+    <li>
+        <span>Desgin para seguir no</span> <a href="https://www.figma.com/file/uxtjf8rjZu3f5OfADyLpGz/Winery-cp-1?type=design&node-id=0-1&mode=design&t=099kRp0lLuvsPuh6-0">figma</a>
+    </li>
     <li>
         <span>Documentação (do mdn)</span> <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a>
     </li>
@@ -52,4 +57,4 @@ css:
     <li>
         <span>Documentação (do atlassian)</span> <a href="https://www.atlassian.com/git/tutorials">atlassian.com/git/tutorials</a>
     </li>
-  </ul>
+</ul>
