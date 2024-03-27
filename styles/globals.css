@@ -1,0 +1,42 @@
+:root {
+    /* wine */
+    --primary-color: #720026;
+
+    /* white */
+    --bg-color: #ffffff;
+
+    /* primary font color + background blue */
+    --dark-blue: #051625;
+
+    /* weak font color */
+    --ghost-font: #838b95;
+
+    /* link font color (light blue) */
+    --link-font-color: #48cae4;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px var(--dark-blue);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--dark-blue);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+input,
+textarea,
+button {
+    font: 400 1rem "DM Sans", sans-serif;
+}

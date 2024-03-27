@@ -1,0 +1,17 @@
+:root {
+    /* wine */
+    --primary-color: #720026;
+
+    /* white */
+    --bg-color: #ffffff;
+
+    /* primary font color + background blue */
+    --dark-blue: #051625;
+
+    /* weak font color */
+    --ghost-font: #838b95;
+    
+    /* link font color (light blue) */
+    --link-font-color: #48cae4;
+}
+
