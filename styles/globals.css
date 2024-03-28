@@ -28,11 +28,13 @@
 }
 
 body {
+    overflow-x: hidden;
+    padding: 0px 9.75rem;
     background-color: var(--bg-color);
+
     color: var(--dark-blue);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    padding: 0px 9.75rem;
 }
 
 body,
