@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 1rem;
 }
 
 #container-main-menu {
@@ -32,20 +33,21 @@
     cursor: pointer;
 }
 
-.main-menu span {
-    color: var(--dark-blue);
+.main-menu li {
     position: relative;
+    list-style-type: none;
+    margin-left: .75rem;
 }
 
-.main-menu span:hover{
+.main-menu li:hover {
     color: var(--primary-color);
 }
 
-.main-menu span::after {
+.main-menu li::after {
     display: hidden;
 }
 
-.main-menu span:hover::after{
+.main-menu li:hover::after {
     content: '';
     width: 8px;
     aspect-ratio: 1;
@@ -61,6 +63,12 @@
     background-size: contain;
 }
 
+.winery-logo img {
+    width: 5rem;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
 #container-side-menu {
     display: flex;
     width: 150px;
@@ -74,8 +82,10 @@
     justify-content: space-evenly;
     align-items: center;
     justify-items: center;
+    cursor: pointer;
+    column-gap: .4rem;
 }
 
-.side-menu img:hover{
+.side-menu img:hover {
     transform: scale(1.2);
 }
