@@ -38,6 +38,9 @@ body {
     color: var(--dark-blue);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    /* delete after */
+    min-height: 200vh;
 }
 
 body,
