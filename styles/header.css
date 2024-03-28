@@ -10,7 +10,7 @@
 
     /* weak font color */
     --ghost-font: #838b95;
-    
+
     /* link font color (light blue) */
     --link-font-color: #48cae4;
 }
@@ -19,33 +19,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 1rem;
 }
 
-#container-main-menu{
+#container-main-menu {
     width: 500px;
 }
 
-.main-menu{
+.main-menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
 }
 
-.main-menu span {
-    color: var(--dark-blue);
+.main-menu li {
     position: relative;
+    list-style-type: none;
+    margin-left: .75rem;
 }
 
-.main-menu span:hover{
+.main-menu li:hover {
     color: var(--primary-color);
 }
 
-.main-menu span::after {
+.main-menu li::after {
     display: hidden;
 }
 
-.main-menu span:hover::after{
+.main-menu li:hover::after {
     content: '';
     width: 8px;
     aspect-ratio: 1;
@@ -59,25 +61,32 @@
     background-image: url('../assets/caret-down.png');
     background-repeat: no-repeat;
     background-size: contain;
-    
+
 }
 
-#container-side-menu{
+.winery-logo img {
+    width: 5rem;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+#container-side-menu {
     display: flex;
     width: 150px;
     align-items: center;
     justify-content: center;
 }
 
-.side-menu{
+.side-menu {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     justify-items: center;
     cursor: pointer;
+    column-gap: .4rem;
 }
 
-.side-menu img:hover{
+.side-menu img:hover {
     transform: scale(1.2);
 }
