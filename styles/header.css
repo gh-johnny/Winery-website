@@ -14,3 +14,71 @@
     /* link font color (light blue) */
     --link-font-color: #48cae4;
 }
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+#container-main-menu{
+    width: 500px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-menu span {
+    color: var(--dark-blue);
+    position: relative;
+}
+
+.main-menu span:hover{
+    color: var(--primary-color);
+}
+
+.main-menu span::after {
+    display: hidden;
+}
+
+.main-menu span:hover::after{
+    content: '';
+    width: 8px;
+    aspect-ratio: 1;
+
+    display: block;
+    position: absolute;
+    top: 50%;
+    translate: -50% 0;
+    right: -20px;
+
+    background-image: url('../assets/caret-down.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+#container-side-menu{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.side-menu img:hover{
+    transform: scale(1.2);
+}
