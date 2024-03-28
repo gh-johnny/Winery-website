@@ -10,8 +10,100 @@
 
     /* weak font color */
     --ghost-font: #838b95;
-    
+
     /* link font color (light blue) */
     --link-font-color: #48cae4;
 }
 
+.home {
+    display: flex;
+    border: 1px solid red;
+    height: 80vh;
+}
+
+.home>* {
+    border: 1px solid blue;
+}
+
+.home article {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .85rem;
+}
+
+.home p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    letter-spacing: 3px;
+}
+
+.home h1 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.home h1>span {
+    color: var(--primary-color);
+}
+
+.home small {
+    font: 400 .9rem "Lato", sans-serif;
+    color: var(--ghost-font);
+}
+
+.home section {
+    display: flex;
+    column-gap: 1rem;
+    padding-top: 2rem;
+}
+
+.home a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2.5rem;
+
+    text-transform: capitalize;
+    text-decoration: none;
+
+    border: 1px solid var(--primary-color);
+    border-radius: 51px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.home .btn-about {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.home .btn-shop {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.home .btn-about:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.home .btn-shop:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.home .btn-about:hover+.btn-shop {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.btn-about:has(+ .btn-shop:hover) {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
