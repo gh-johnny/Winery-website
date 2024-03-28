@@ -33,8 +33,34 @@
     cursor: pointer;
 }
 
-.main-menu h4:hover{
-    transform:  scale(1.2);
+.main-menu span {
+    color: var(--dark-blue);
+    position: relative;
+}
+
+.main-menu span:hover{
+    color: var(--primary-color);
+}
+
+.main-menu span::after {
+    display: hidden;
+}
+
+.main-menu span:hover::after{
+    content: '';
+    width: 8px;
+    aspect-ratio: 1;
+
+    display: block;
+    position: absolute;
+    top: 50%;
+    translate: -50% 0;
+    right: -20px;
+
+    background-image: url('../assets/caret-down.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 #container-side-menu{
