@@ -94,11 +94,6 @@
     color: var(--bg-color);
 }
 
-.btn-about:has(+ .btn-shop:hover) {
-    background-color: var(--bg-color);
-    color: var(--primary-color);
-}
-
 .home figure {
     flex: 1;
     display: flex;
