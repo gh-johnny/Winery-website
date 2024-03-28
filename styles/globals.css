@@ -23,7 +23,7 @@
 
 *:focus {
     outline: 0;
-    box-shadow: 0 0 0 2px var(--dark-blue);
+    box-shadow: 0 0 2 2px var(--dark-blue);
 }
 
 body {
@@ -31,6 +31,7 @@ body {
     color: var(--dark-blue);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    padding: 0px 9.75rem;
 }
 
 body,
