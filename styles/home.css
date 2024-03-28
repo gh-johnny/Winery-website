@@ -144,3 +144,53 @@
     bottom: -1rem;
     left: 5.4rem;
 }
+
+.home figure {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.home figure section {
+   width: fit-content;
+   height: fit-content;
+
+   position: relative;
+}
+
+.home img {
+    width: 20rem; 
+    aspect-ratio: 1;
+
+    object-fit: contain;
+}
+
+.home aside::before {
+    content: '';
+    background-color: var(--primary-color);
+    filter: blur(80px);
+
+    height: 66%;
+    width: 40%;
+
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+}
+
+.home aside::after {
+    content: '';
+    border: 1px solid black;
+    background-color: #111E3C;
+    filter: blur(27px);
+    z-index: -1;
+
+    width: 45%;
+    height: 5%;
+
+    position: absolute;
+    bottom: -1rem;
+    left: 5rem;
+}
