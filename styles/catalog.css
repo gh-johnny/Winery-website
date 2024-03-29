@@ -45,10 +45,13 @@
 }
 
 .catalog > section {
-    display: grid;
-    place-content: center;
-    grid-template-columns: repeat(4, 20rem);
-    grid-row-gap: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+    row-gap: 8rem;
+
+    width: 100%;
 }
 
 .card {
@@ -87,8 +90,8 @@
 }
 
 .card img {
-    width: 15.5rem;
-    height: 20.375rem;
+    width: 13.5rem;
+    height: 18.375rem;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -103,7 +106,7 @@
 }
 
 .card h4 {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
 }
 
 .card h5 {
@@ -116,4 +119,16 @@
     font-weight: 550;
     font-size: 17px;
     color: var(--primary-color)
+}
+
+.card aside {
+    width: 10rem;
+    aspect-ratio: 1;
+    background-color: var(--primary-color);
+    filter: blur(100px);
+
+    position: absolute;
+    top: -6rem;
+    right: -2rem;
+    z-index: -1;
 }

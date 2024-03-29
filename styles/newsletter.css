@@ -17,11 +17,16 @@
 
 .newsletter {
     display: flex;
+    flex-direction: row-reverse;
     background-color: var(--primary-color);
 
     border-radius: 16px;
     margin-bottom: 20vh;
     color: var(--bg-color);
+
+    position: relative;
+
+    min-width: calc(1040px - 9rem);
 }
 
 .newsletter p,
@@ -30,8 +35,27 @@
     color: var(--bg-color);
 }
 
+.newsletter figure {
+    position: absolute;
+    left: 28%;
+    top: -10rem;
+    translate: -50% 0;
+}
+
+.newsletter figure::after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 2rem;
+    bottom: 1rem;
+    left: 27%;
+    background-color: var(--dark-blue);
+    filter: blur(35px); 
+    z-index: -1;
+}
+
 .newsletter figure img {
-    width: 20rem;
+    width: 27rem;
     aspect-ratio: 1;
     object-fit: contain;
 }
@@ -42,8 +66,7 @@
     row-gap: 1.25rem;
     height: fit-content;
     padding: 3rem 6rem;
-
-    border: 1px solid black;
+    max-width: 40rem;
 }
 
 .newsletter>article>section:nth-child(1) {

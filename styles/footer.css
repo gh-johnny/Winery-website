@@ -10,7 +10,87 @@
 
     /* weak font color */
     --ghost-font: #838b95;
-    
+
     /* link font color (light blue) */
     --link-font-color: #48cae4;
+}
+
+footer {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-blue);
+    min-width: 1125px;
+}
+
+footer>section:first-child {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9rem;
+}
+
+.footer-container-icon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.footer-container-icon figure {
+    background-color: var(--bg-color);
+    width: fit-content;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer-container-icon article {
+    display: flex;
+    column-gap: 1.4rem;
+    margin-top: .2rem;
+}
+
+.footer-container-list {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    column-gap: 8rem;
+    padding: 2rem;
+    margin-right: 4rem;
+}
+
+.footer-container-list ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    list-style-type: none;
+}
+
+.footer-container-list li > * {
+    border: 1px solid var(--dark-blue);
+    border-radius: 3px;
+}
+
+.footer-container-list li > p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.footer-container-list li > a:hover{
+    border: 1px solid var(--link-font-color);
+}
+
+.footer-container-list h6 {
+    font: 700 1.125rem "DM Sans", sans-serif;
+}
+
+.footer-container-list a {
+    color: var(--link-font-color);
+}
+
+footer>section:last-child {
+    font-family: "Lato", sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    text-align: center;
 }
