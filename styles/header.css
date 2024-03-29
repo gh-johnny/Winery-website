@@ -15,6 +15,11 @@
     --link-font-color: #48cae4;
 }
 
+header a {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +44,7 @@
     margin-left: .75rem;
 }
 
-.main-menu li:hover {
+.main-menu li:hover a {
     color: var(--primary-color);
 }
 
