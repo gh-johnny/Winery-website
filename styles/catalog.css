@@ -45,11 +45,11 @@
 }
 
 .catalog > section {
-    display: grid;
-    margin-left: 3rem;
-    place-content: center;
-    grid-template-columns: repeat(4, 17rem);
-    grid-row-gap: 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+    width: 100%;
 }
 
 .card {

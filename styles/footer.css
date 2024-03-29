@@ -15,6 +15,10 @@
     --link-font-color: #48cae4;
 }
 
+footer {
+   padding: 0; 
+}
+
 #footer_content{
     background-color: var(--dark-blue);
     display: grid;

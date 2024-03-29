@@ -32,15 +32,15 @@ html {
 
 body {
     overflow-x: hidden;
-    padding: 0px 9rem;
     background-color: var(--bg-color);
 
     color: var(--dark-blue);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
 
-    /* delete after */
-    min-height: 200vh;
+body > * {
+    padding: 0px 9rem;
 }
 
 body,
