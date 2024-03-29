@@ -70,9 +70,13 @@
     border-radius: 51px;
 
     cursor: pointer;
-    transition: all 0.3s ease-out;
+    transition: background-color 0.25s ease-out;
 
     white-space: nowrap;
+}
+
+.home a:hover {
+    box-shadow: 0 0 2px 1px var(--primary-color);
 }
 
 .home .btn-about {
@@ -85,17 +89,7 @@
     color: var(--primary-color);
 }
 
-.home .btn-about:hover {
-    background-color: var(--bg-color);
-    color: var(--primary-color);
-}
-
 .home .btn-shop:hover {
-    background-color: var(--primary-color);
-    color: var(--bg-color);
-}
-
-.home .btn-about:hover+.btn-shop {
     background-color: var(--primary-color);
     color: var(--bg-color);
 }
@@ -131,6 +125,7 @@
     content: '';
     background-color: var(--primary-color);
     filter: blur(80px);
+    z-index: -1;
 
     height: 66%;
     width: 40%;
