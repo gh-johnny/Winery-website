@@ -83,11 +83,11 @@
     justify-content: space-evenly;
     align-items: center;
     justify-items: center;
-    cursor: pointer;
     column-gap: .4rem;
 }
 
 .side-menu img:hover {
+    cursor: pointer;
     transform: scale(1.2);
 }
 
@@ -152,6 +152,7 @@ input[type="submit"] {
 }
   
 input[type="submit"]:hover {
+    transform: scale(1.2);
     opacity: 1.5;
 }
 
