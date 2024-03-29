@@ -32,7 +32,7 @@ html {
 
 body {
     overflow-x: hidden;
-    padding: 0px 9.75rem;
+    padding: 0px 9rem;
     background-color: var(--bg-color);
 
     color: var(--dark-blue);

@@ -46,8 +46,9 @@
 
 .catalog > section {
     display: grid;
+    margin-left: 3rem;
     place-content: center;
-    grid-template-columns: repeat(4, 20rem);
+    grid-template-columns: repeat(4, 17rem);
     grid-row-gap: 6rem;
 }
 
@@ -87,8 +88,8 @@
 }
 
 .card img {
-    width: 15.5rem;
-    height: 20.375rem;
+    width: 13.5rem;
+    height: 18.375rem;
     object-fit: cover;
     border-radius: 12px;
 }
