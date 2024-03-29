@@ -14,3 +14,56 @@
     /* link font color (light blue) */
     --link-font-color: #48cae4;
 }
+
+main {
+    height: 80vh;
+}
+
+footer {
+    width: 100%;
+    color: var(--bg-color);
+    font-size: 18px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+#footer_content{
+    background-color: var(--dark-blue);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+}
+
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+}
+
+.footer_list p{
+    font-family: "Lato";
+    font-size: 15px;
+}
+
+.footer_list a{
+    font-family: "Lato";
+    font-size: 15px;
+    color: var(--link-font-color);
+}
+
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-blue);
+    font-size: 15px;
+    padding: 1.5rem;
+    font-weight: 200;
+}  
+
