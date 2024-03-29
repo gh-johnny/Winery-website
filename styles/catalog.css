@@ -26,6 +26,9 @@
     width: 100;
     text-align: center;
 
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 
 .catalog h2 {
@@ -36,6 +39,7 @@
 
 .catalog > article > small {
     color: var(--ghost-font);
+    font-family: "Lato", sans-serif;
 }
 
 .card {
