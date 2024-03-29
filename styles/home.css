@@ -26,6 +26,7 @@
     flex-direction: column;
     row-gap: .85rem;
     justify-content: center;
+    margin-left: 10rem;
 }
 
 .home p {

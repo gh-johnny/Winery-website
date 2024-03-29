@@ -46,9 +46,11 @@
 
 .catalog > section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 4rem;
+    column-gap: 4rem;
+    row-gap: 8rem;
+
     width: 100%;
 }
 
