@@ -14,3 +14,37 @@
     /* link font color (light blue) */
     --link-font-color: #48cae4;
 }
+
+#footer {
+    width: 100%;
+    background-color: #051625;
+    display: block;
+}
+
+.container-winery-logo {
+    background-color: #ffffff;
+    width: min-content;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+.footer-info {
+    color: #ffffff;
+}
+
+.media-logos {
+    position: relative;
+    right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.media-logos img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
