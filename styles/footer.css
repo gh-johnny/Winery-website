@@ -22,6 +22,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: var(--dark-blue);
+    min-width: 1125px;
 }
 
 footer>section:first-child {
