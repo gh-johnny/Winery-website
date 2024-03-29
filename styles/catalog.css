@@ -43,35 +43,50 @@
 }
 
 .card {
+    width: fit-content;
+    height: fit-content;
+
     position: relative;
     background-color: var(--bg-color);
-    width: 264px;
-    height: 358px;
     border-radius: 12px;
-    box-shadow: 4px 4px 12px #aaaa;
-    transition: transform 0.3s ease-in-out;
-    margin-right: 60px
-}
-
-.card img {
-    width: 264px;
-    height: 268px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
 }
 
 .card::after {
     content: '';
     position: absolute;
-    top: 74%;
-    left: 0;
     width: 100%;
-    height: 5px;
-    background-color: var(--primary-color);
+    height: 99%;
+    background-image: linear-gradient(to top,  rgba(73, 119, 229, .25), transparent);
+    border-radius: 12px;
     z-index: 1;
+    top: 0;
+    left: 0;
+    
 }
 
-.card div {
+.card .details {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    bottom: -3rem;
+    left: 50%;
+    translate: -50% 0;
+    z-index: 999;
+
+    border-top: 5px solid var(--primary-color);
+    background-color: var(--bg-color);
+    box-shadow: 0px 0px 130px 1px var(--ghost-font);
+    border-radius: 0 0px 12px 12px;
+}
+
+.card img {
+    width: 16.5rem;
+    height: 20.375rem;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card figcaption {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,22 +95,18 @@
     height: 22%;
 }
 
-.card h1 {
+.card h4 {
     font-size: 1.2rem;
 }
 
-.card h2 {
-    font-size: .9rem;
-    color: #aaaa;
+.card h5 {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: var(--ghost-font);
 }
 
 .card span {
     font-weight: 550;
     font-size: 17px;
     color: var(--primary-color)
-}
-
-.card:hover {
-    cursor: pointer;
-    transform: scale(1.05);
 }
