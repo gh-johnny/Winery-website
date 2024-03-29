@@ -77,7 +77,6 @@
 
 .home a:hover {
     box-shadow: 0 0 2px 1px var(--primary-color);
-    white-space: nowrap;
 }
 
 .home .btn-about {
@@ -95,6 +94,7 @@
     color: var(--bg-color);
 }
 
+<<<<<<< HEAD
 .home figure {
     flex: 1;
     display: flex;
@@ -172,6 +172,7 @@
     content: '';
     background-color: var(--primary-color);
     filter: blur(80px);
+    z-index: -1;
 
     height: 66%;
     width: 40%;
