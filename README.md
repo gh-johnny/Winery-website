@@ -6,7 +6,7 @@
 Aqui estão algumas das referências que recomendo qualquer um dar uma olhada
 
 <ul>
-    css:
+css:
     <li>
         <span>Documentação (do mdn)</span> <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a>
     </li>
