@@ -52,4 +52,4 @@ css:
     <li>
         <span>Documentação (do atlassian)</span> <a href="https://www.atlassian.com/git/tutorials">atlassian.com/git/tutorials</a>
     </li>
-  </ul>
+</ul>
